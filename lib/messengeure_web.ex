@@ -24,6 +24,7 @@ defmodule MessengeureWeb do
       import Plug.Conn
       import MessengeureWeb.Gettext
       alias MessengeureWeb.Router.Helpers, as: Routes
+      alias Messengeure.Accounts
     end
   end
 
